@@ -5,12 +5,14 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "integrity-tumblr"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "Tumblr notifier for the Integrity continuous integration server"
+    gem.description = "Let Integrity post notifications to a Tumblr weblog after each build"
     gem.email = "mflores@atlanware.com"
     gem.homepage = "http://github.com/matflores/integrity-tumblr"
-    gem.authors = ["matflores"]
+    gem.authors = ["Matías Flores"]
+    gem.add_dependency "integrity"
     gem.add_development_dependency "thoughtbot-shoulda"
+    gem.rubyforge_project = "integrity"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
