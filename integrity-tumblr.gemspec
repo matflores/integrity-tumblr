@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{integrity-tumblr}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mat\303\255as Flores"]
@@ -21,10 +21,14 @@ Gem::Specification.new do |s|
     ".document",
      ".gitignore",
      "LICENSE",
+     "README.markdown",
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "lib/integrity-tumblr.rb",
+     "integrity-tumblr.gemspec",
+     "lib/integrity/notifier/config.haml",
+     "lib/integrity/notifier/tumblr.rb",
+     "lib/integrity/notifier/tumblr_client.rb",
      "test/integrity-tumblr_test.rb",
      "test/test_helper.rb"
   ]
