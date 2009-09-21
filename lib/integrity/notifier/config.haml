@@ -1,0 +1,7 @@
+%p.normal
+  %label{ :for => "tumblr_notifier_email" } Tumblr account's email address
+  %input.text#tumblr_notifier_email{ :name => "notifiers[Tumblr][email]", :value => config['email'], :type => 'text' }
+ 
+%p.normal
+  %label{ :for => "tumblr_notifier_password" } Password
+  %input.text#tumblr_notifier_password{ :name => "notifiers[Tumblr][password]", :value => config['password'], :type => 'text' }
